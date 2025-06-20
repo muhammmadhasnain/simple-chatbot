@@ -6,7 +6,7 @@ from dotenv import load_dotenv, find_dotenv  # type: ignore
 from openai.types.responses import ResponseTextDeltaEvent  # type: ignore
 
 
-load_dotenv(find_dotenv())
+load_dotenv()
 
 gemini_api_key = os.getenv("GEMINI_API_KEY")
 
